@@ -1,6 +1,9 @@
 # [Q4 Inc.](https://q4inc.com/)
 
 ## Front-end Developer Assessment
+| Mobile | 2-Column | 3-Column |
+|:-:|:-:|:-:|
+| ![Mobile_Front-end Developer Assessment](https://github.com/TMJSMC53/fed-test/assets/49826692/93228eb9-fb8d-42f5-a5b6-c9bb060dbac2)| ![2-Column_Front-end Developer Assessment](https://github.com/TMJSMC53/fed-test/assets/49826692/a9fffd53-6be4-4ebd-947d-ac03c6caf12d)| ![3-Column_Front-end Developer Assessment](https://github.com/TMJSMC53/fed-test/assets/49826692/6e2d5c85-d986-4b91-b366-2e282c7b5a02)|
 
 Welcome to the front-end developer assessment package.
 Below, you will find list criteria used to determine your development skill level:
