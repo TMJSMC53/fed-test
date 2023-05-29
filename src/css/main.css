@@ -3,23 +3,25 @@
 }
 
 #q4Wrapper {
-  background-color: #2A3035;
+  background-color: #2a3035;
   font-family: "Roboto", sans-serif;
   color: white;
 }
-#q4Wrapper h1, #q4Wrapper h3 {
+#q4Wrapper h1,
+#q4Wrapper h3 {
   margin: 0;
 }
 #q4Wrapper h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 #q4Wrapper h3 {
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
 }
-#q4Wrapper header, #q4Wrapper footer {
-  background-color: #22272B;
+#q4Wrapper header,
+#q4Wrapper footer {
+  background-color: #22272b;
 }
 #q4Wrapper header {
   padding: 20px;
@@ -60,5 +62,28 @@
 
 /* Begin styling the report items here! */
 .reports {
+  --column-count: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--column-count), 1fr);
+  gap: 30px;
+}
 
+.reports_details {
+  color: rgb(145, 147, 148);
+}
+
+@media (width > 610px) {
+  .reports {
+    --column-count: 2;
+  }
+
+  #q4Wrapper h1 {
+    font-size: 48px;
+  }
+}
+
+@media (width > 768px) {
+  .reports {
+    --column-count: 3;
+  }
 }
